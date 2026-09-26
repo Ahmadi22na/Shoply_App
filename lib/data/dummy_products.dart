@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import '../models/product_model.dart';
 
 /// Local, hard-coded product data — no JSON, no API.
@@ -13,7 +12,7 @@ final List<Product> dummyProducts = [
     inStock: true,
     description:
         'All day comfort with a modern design. Suitable for everyday wear.',
-    icon: Icons.directions_run,
+    imagePath: 'assets/images/nike_air_max.png',
   ),
   const Product(
     id: 'p2',
@@ -24,7 +23,7 @@ final List<Product> dummyProducts = [
     inStock: true,
     description:
         'A practical backpack with multiple compartments for daily travel.',
-    icon: Icons.backpack,
+    imagePath: 'assets/images/travel_backpack.png',
   ),
   const Product(
     id: 'p3',
@@ -35,7 +34,7 @@ final List<Product> dummyProducts = [
     inStock: true,
     description:
         'Comfortable wireless headphones with clear sound and long battery life.',
-    icon: Icons.headphones,
+    imagePath: 'assets/images/wireless_headphones.png',
   ),
   const Product(
     id: 'p4',
@@ -46,7 +45,7 @@ final List<Product> dummyProducts = [
     inStock: true,
     description:
         'A modern smart watch for notifications, activity tracking, and daily use.',
-    icon: Icons.watch,
+    imagePath: 'assets/images/smart_watch.png',
   ),
   const Product(
     id: 'p5',
@@ -57,7 +56,7 @@ final List<Product> dummyProducts = [
     inStock: true,
     description:
         'Lightweight sunglasses with a simple design for sunny days.',
-    icon: Icons.wb_sunny_outlined,
+    imagePath: 'assets/images/sunglasses.png',
   ),
   const Product(
     id: 'p6',
@@ -68,6 +67,6 @@ final List<Product> dummyProducts = [
     inStock: false,
     description:
         'Comfortable casual shoes designed for daily walking and relaxed outfits.',
-    icon: Icons.hiking,
+    imagePath: 'assets/images/casual_shoes.png',
   ),
 ];
