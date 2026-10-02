@@ -1,17 +1,99 @@
-# flutter_shop_app
+#Ahmad Ismail Ahmad
 
-A new Flutter project.
+# Flutter Shop App
+
+A Flutter e-commerce application with a clean and simple user interface.
+
+## Screenshots
+
+### Login
+
+<p align="center">
+  <img src="Screenshots/login.png" width="300">
+</p>
+
+### Products Grid
+
+<p align="center">
+  <img src="Screenshots/productsg.png" width="300">
+</p>
+
+### Products List
+
+<p align="center">
+  <img src="Screenshots/productsl.png" width="300">
+</p>
+
+### Product Details
+
+<p align="center">
+  <img src="Screenshots/product.png" width="300">
+</p>
+
+## Project Structure
+
+```text
+flutter_shop_app/
+├── Screenshots/
+│   ├── login.png
+│   ├── product.png
+│   ├── productsg.png
+│   └── productsl.png
+├── lib/
+├── test/
+├── android/
+├── ios/
+└── README.md
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+* Flutter SDK
+* Dart SDK
+* Android Studio or VS Code
+* Android Emulator or physical device
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone the repository:
+
+```bash
+git clone <your-repository-url>
+```
+
+Navigate to the project:
+
+```bash
+cd flutter_shop_app
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Run the application:
+
+```bash
+flutter run
+```
+
+## Built With
+
+* Flutter
+* Dart
+
+## Features
+
+* User login screen
+* Product browsing
+* Grid product view
+* List product view
+* Product details screen
+
+## License
+
+This project is for educational and development purposes.
